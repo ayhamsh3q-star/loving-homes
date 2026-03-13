@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>اتصل بنا - Loving Homes</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- شريط الأخبار المتحرك -->
+    <div class="news-ticker">
+        <div class="news-content">
+            <span class="news-icon">📰 أخبار:</span>
+            <span class="news-text">مرحباً بك في لوفينغ هومز - أفضل فندق للكلاب في هونج كونج 🐕</span>
+            <span class="news-separator">•</span>
+            <span class="news-text">حصلنا على جائزة أفضل فندق للحيوانات الأليفة 🏆</span>
+            <span class="news-separator">•</span>
+            <span class="news-text">خدمات تجميل وسبا متخصصة الآن متاحة 💅</span>
+            <span class="news-separator">•</span>
+            <span class="news-text">احجز الآن واحصل على خصم 20% 🎉</span>
+        </div>
+    </div>
+
+    <!-- رأس الصفحة -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">🐕 Loving Homes</div>
+            <nav class="nav">
+                <a href="index.html" class="nav-link">الرئيسية</a>
+                <a href="facilities.html" class="nav-link">المرافق</a>
+                <a href="contact.html" class="nav-link active">اتصل بنا</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- عنوان الصفحة -->
+    <section class="page-header">
+        <h1>اتصل بنا</h1>
+        <p>نحن هنا للإجابة على جميع أسئلتك والاستماع إلى احتياجات حيوانك الأليف</p>
+    </section>
+
+    <!-- قسم الاتصال -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-wrapper">
+                <!-- معلومات الاتصال -->
+                <div class="contact-info">
+                    <h2>معلومات التواصل</h2>
+                    
+                    <div class="info-item">
+                        <div class="info-icon">📞</div>
+                        <div>
+                            <h4>الهاتف</h4>
+                            <p>+852 1234 5678</p>
+                            <p>+852 8765 4321</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="info-icon">📧</div>
+                        <div>
+                            <h4>البريد الإلكتروني</h4>
+                            <p>info@lovinghomes.hk</p>
+                            <p>booking@lovinghomes.hk</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="info-icon">📍</div>
+                        <div>
+                            <h4>العنوان</h4>
+                            <p>123 شارع الحيوانات الأليفة</p>
+                            <p>هونج كونج</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="info-icon">⏰</div>
+                        <div>
+                            <h4>ساعات العمل</h4>
+                            <p>السبت - الخميس: 8:00 صباحاً - 8:00 مساءً</p>
+                            <p>الجمعة: 8:00 صباحاً - 6:00 مساءً</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- نموذج الاتصال -->
+                <div class="contact-form-wrapper">
+                    <h2>أرسل لنا رسالة</h2>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">الاسم الكامل</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">البريد الإلكتروني</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">رقم الهاتف</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">الموضوع</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">اختر الموضوع</option>
+                                <option value="booking">حجز جديد</option>
+                                <option value="inquiry">استفسار عام</option>
+                                <option value="complaint">شكوى أو اقتراح</option>
+                                <option value="other">أخرى</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">الرسالة</label>
+                            <textarea id="message" name="message" rows="6" required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">إرسال الرسالة</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم الخريطة -->
+    <section class="map-section">
+        <h2 class="section-title">موقعنا على الخريطة</h2>
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.5028365892667!2d114.17282!3d22.302711!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3403f8d8c8c8c8c9%3A0x8c8c8c8c8c8c8c8c!2sHong%20Kong!5e0!3m2!1sen!2shk!4v1234567890" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <!-- التذييل -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>عن الموقع</h4>
+                <p>لوفينغ هومز هو أفضل فندق فاخر للكلاب في هونج كونج، يوفر رعاية احترافية ومرافق عالمية.</p>
+            </div>
+            <div class="footer-section">
+                <h4>الروابط السريعة</h4>
+                <ul>
+                    <li><a href="index.html">الرئيسية</a></li>
+                    <li><a href="facilities.html">المرافق</a></li>
+                    <li><a href="contact.html">اتصل بنا</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>تواصل معنا</h4>
+                <p>📞 +852 1234 5678</p>
+                <p>📧 info@lovinghomes.hk</p>
+                <p>📍 هونج كونج</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Loving Homes. جميع الحقوق محفوظة.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

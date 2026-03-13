@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loving Homes - فندق الكلاب</title>
+<link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- شريط الأخبار المتحرك -->
+    <div class="news-ticker">
+        <div class="news-content">
+            <span class="news-icon">📰 أخبار:</span>
+            <span class="news-text">مرحباً بك في لوفينغ هومز - أفضل فندق للكلاب في هونج كونج 🐕</span>
+            <span class="news-separator">•</span>
+            <span class="news-text">حصلنا على جائزة أفضل فندق للحيوانات الأليفة 🏆</span>
+            <span class="news-separator">•</span>
+            <span class="news-text">خدمات تجميل وسبا متخصصة الآن متاحة 💅</span>
+            <span class="news-separator">•</span>
+            <span class="news-text">احجز الآن واحصل على خصم 20% 🎉</span>
+        </div>
+    </div>
+
+    <!-- رأس الصفحة -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">🐕 Loving Homes</div>
+            <nav class="nav">
+                <a href="index.html" class="nav-link active">الرئيسية</a>
+                <a href="facilities.html" class="nav-link">المرافق</a>
+                <a href="contact.html" class="nav-link">اتصل بنا</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- القسم الرئيسي -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">مرحباً بك في<br><span class="highlight">لوفينغ هومز</span></h1>
+            <p class="hero-subtitle">أفضل فندق فاخر للكلاب في هونج كونج - رعاية احترافية، مرافق عالمية، وحب لا محدود لحيواناتك الأليفة.</p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary" onclick="scrollToSection('facilities')">🔍 استكشف المرافق</button>
+                <button class="btn btn-secondary" onclick="window.location.href='contact.html'">📞 اتصل بنا</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم عن الخدمات -->
+    <section class="services">
+        <h2 class="section-title">عن لوفينغ هومز</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon">🏆</div>
+                <h3>خدمة عالمية</h3>
+                <p>مرافق فاخرة مع أحدث التقنيات والمعايير الدولية.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">👨‍⚕️</div>
+                <h3>رعاية احترافية</h3>
+                <p>فريق متخصص وخبير في رعاية الحيوانات اليومية.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">❤️</div>
+                <h3>حب لا محدود</h3>
+                <p>تعامل حيواناتك الأليفة كأفراد من عائلتنا.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم الفيديو -->
+    <section class="video-section">
+        <h2 class="section-title">فيديو ترحيبي</h2>
+        <div class="video-container">
+            <iframe width="100%" height="500" src="https://streamable.com/hugvy0" title="فيديو ترحيبي من Loving Homes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <!-- التذييل -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>عن الموقع</h4>
+                <p>لوفينغ هومز هو أفضل فندق فاخر للكلاب في هونج كونج، يوفر رعاية احترافية ومرافق عالمية.</p>
+            </div>
+            <div class="footer-section">
+                <h4>الروابط السريعة</h4>
+                <ul>
+                    <li><a href="index.html">الرئيسية</a></li>
+                    <li><a href="facilities.html">المرافق</a></li>
+                    <li><a href="contact.html">اتصل بنا</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>تواصل معنا</h4>
+                <p>📞 +852 1234 5678</p>
+                <p>📧 info@lovinghomes.hk</p>
+                <p>📍 هونج كونج</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Loving Homes. جميع الحقوق محفوظة.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
